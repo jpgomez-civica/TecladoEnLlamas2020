@@ -1,0 +1,2 @@
+En la primera parte creo una variable String con la cadena de paréntesis,recorro esta cadena y por cada paréntisis de abertura sumo más 1 a la variable contador y por cada paréntesis de cierre quito uno.Así obengo el piso correcto.
+En la segunda parte lo que hago es un if que cuando el contador sea -1 y nunca se haya dado que el contador sea -1 cumple la condición y se guarda en la variable posición,la posición en la que estamos que se calcula sumandole a  la i del bucle +1 uno porque la posición real siempre va a ser uno más que i (que es el contador del bucle)
