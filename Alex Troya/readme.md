@@ -31,5 +31,6 @@ I won't be working on presentation and best practices for display content either
 
 ## Updates log
 19/02/20 - Uploaded **Day 01**.  
+I made up that Santa will reach the floor using the lift. Why? Because as all we know, there isn't chimney in all flats and because he's an old man and look for the exactly floor using the stairs can take too much time.  
 **Models** used are inside the day folder. For the moment this model is used just in this challenge.  
 **Traits**: `File` will be used in other challenges. It will be on root folder.  
