@@ -1,14 +1,13 @@
 # Teclado en llamas
 
-**Index**   
+**Índice**   
 1. [Technologies](#techs)
 2. [How it is structured](#structure)
 3. [Installation](#installation)
 4. [Challenge results](#results)
-5. [Updates log](#updates)
-
+5. [Updates log](#log)
 ## Technologies <a name="techs"></a>
-Web based project (server side).
+Web based project.
  - **Language:** PHP7 
  
 ## How it is structured <a name="structure"></a>
@@ -30,7 +29,7 @@ Accest to the project on (by default) `localhost:8000/alexTroya/dayXX`
 Results will be displayed directly in the browser by the `index.php` file.  
 I won't be working on presentation and best practices for display content either on PHP, Ill just " `echo` "the result to screen.
 
-## Updates log
+## Updates log.<a name="log"></a>
 19/02/20 - Uploaded **Day 01**.  
 >I made up that Santa will reach the floor using the lift. Why? Because as all we know, there isn't chimney in all flats and because he's an old man and look for the exactly floor using the stairs can take too much time.  
 
