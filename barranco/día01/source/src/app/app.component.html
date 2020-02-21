@@ -1,0 +1,55 @@
+<section class="container">
+
+    <div class="challengeContainer">
+
+        <ng-container *ngIf="position !== 0">
+            <div class="challengeSolution">
+                <p> Challenge 1 solution: {{numFloor}} floor </p>
+            </div>
+
+            <div class="imageContainer">
+                <p class="textSolution">Floor number: {{numFloor}}</p>
+                <img src="../assets/resources/images/building.jpg">
+            </div>
+        </ng-container>
+
+        <ng-container *ngIf="position === 0">
+            <div class="challengeSolution">
+                <p> Challenge 1 solution: Floor not found. </p>
+            </div>
+            
+            <div class="imageContainer">
+                <img src="../assets/resources/images/404.jpg">
+            </div>
+        </ng-container>
+        
+    </div>
+
+    <hr>
+
+    <div class="challengeContainer">
+
+        <ng-container *ngIf="position !== 0">
+            <div class="challengeSolution">
+                <p> Challenge 2 solution: {{position}}º position  </p>
+            </div>
+
+            <div class="imageContainer">
+                <p class="textSolutionTwo">{{position}}º</p>
+                <img src="../assets/resources/images/medal.jpg">
+            </div>
+        </ng-container>
+
+        <ng-container *ngIf="position === 0">
+            <div class="challengeSolution">
+                <p> Challenge 2 solution: Position not found.  </p>
+            </div>
+
+            <div class="imageContainer">
+                <img src="../assets/resources/images/404.jpg">
+            </div>
+        </ng-container>
+
+    </div>
+    
+</section>

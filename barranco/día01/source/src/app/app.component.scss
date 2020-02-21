@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.imageContainer {
+    width: 300px;
+    position: relative;
+}
+
+.imageContainer img{
+    width: 272px;
+}
+
+.textSolution {
+    position: absolute;
+    left: 95px;
+    top: 13px;
+    transform: rotate(-5deg);
+    font-weight: bold;
+}
+
+.textSolutionTwo {
+    text-align: center;
+    position: absolute;
+    left: calc(100% / 2 - 50px);
+    top: 140px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.challengeContainer {
+    width: 100%;
+    display: flex;
+}
+
+.challengeContainer > div:first-child {
+    width: 100%;
+}
+
+.challengeSolution {
+    text-align: center;
+    font-weight: bold;
+}

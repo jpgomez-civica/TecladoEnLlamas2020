@@ -1,0 +1,12 @@
+Para realizar el reto he utilizado un fichero de texto llamado planta.txt, este estas en la carpeta raiz del proyecto, en
+este fichero copie la informacion del puzzle.
+A traves de este fichero leo la informacion y la utilizo segun lo que pida.
+
+Descripcion parte 1:
+Primero lo que hago es leer el archivo y dividir la informacion caracter por caracter para almacenarlo en un array.
+Mediante un bucle recorro el array y a una variable plantaActual le voy sumando o restando en funcion del caracter.
+
+Descripcion parte 2:
+Primero lo que hago es leer el archivo y dividir la informacion caracter por caracter para almacenarlo en un array. 
+Mediante un bucle recorro el array y a una variable plantaActual le voy sumando o restando en funcion del caracter
+y en el mismo array sustituyo el caracter por la posicion de la plantaActual para finalmente obtener el primer -1.
