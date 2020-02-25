@@ -6,6 +6,7 @@
 3. [Installation](#installation)
 4. [Challenge results](#results)
 5. [Updates log](#log)
+6. [Wiki](#wiki)
 ## Technologies <a name="techs"></a>
 Web based project.
  - **Language:** PHP7 
@@ -35,3 +36,7 @@ I won't be working on presentation and best practices for display content either
 
 **Models** used are inside the day folder. For the moment this model is used just in this challenge.  
 **Traits**: `File` will be used in other challenges. It will be on root folder.  
+  
+## Wiki .<a name="wiki"></a>
+**DAY 05**  
+ https://regexr.com : Very useful tool for try and practice regular expresions. ALso, you can find a lot of regex made by the community. I found some ones that I've used in `day_05` in that section of the app.
