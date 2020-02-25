@@ -1,0 +1,17 @@
+p {
+    font-weight: bold;
+}
+
+p.solutionTwo {
+    text-align: right;
+}
+
+img.rotateImage {
+    transform: rotateY(180deg);
+}
+
+.solutionContainer {
+    display: block; 
+    width: 300px; 
+    margin: auto
+}

@@ -1,0 +1,28 @@
+<mat-horizontal-stepper [linear]="true" #stepper>
+    <mat-step>
+        <ng-template matStepLabel>Challenge 1</ng-template>
+        <div class="solutionContainer">
+            <ng-container *ngIf="solution !== undefined && solution.firstNumberWithFiveZeros !== 0">
+                <p>Number: {{solution.firstNumberWithFiveZeros}}</p>
+            </ng-container>
+
+            <ng-container *ngIf="solution === undefined || solution.firstNumberWithFiveZeros === 0">
+                <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+                <p> Calculando... </p>
+            </ng-container>
+        </div>
+    </mat-step>
+    <mat-step>
+        <ng-template matStepLabel>Challenge 2</ng-template>
+        <div class="solutionContainer">
+            <ng-container *ngIf="solution !== undefined && solution.firstNumberWithSixZeros !== 0">
+                <p class="solutionTwo">Number: {{solution.firstNumberWithSixZeros}}</p>
+            </ng-container>
+
+            <ng-container *ngIf="solution === undefined || solution.firstNumberWithSixZeros === 0">
+                <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+                <p> Calculando... </p>
+            </ng-container>
+        </div>
+    </mat-step>
+</mat-horizontal-stepper>
